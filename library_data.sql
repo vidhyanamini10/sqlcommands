@@ -118,7 +118,11 @@ SET email_address = CONCAT(first_name, '.', last_name, '@gmail.com')
 WHERE email_address NOT LIKE '%@gmail.com';
 
 
-select * from library_member
+select * from library_member;
+
+select * from book_isbn;
+
+
 
 
 
